@@ -25,9 +25,11 @@ nav
     justify-content: space-around;
     margin: 0px;
 }
-button:hover
+#selected, button:hover
 {
-    cursor: pointer;
+    color: rgb(150, 9, 150);
+    box-shadow: 0px 0px 7px inset rgb(150, 9, 150);
+    border: 1px rgb(150, 9, 150) solid;
 }
 #titre
 {
@@ -84,4 +86,32 @@ figcaption, h3
     color: black;
     text-shadow: 1px 1px 0px rgb(150, 9, 150);
     text-decoration: none;
+}
+#legend_lien:hover img
+{
+    box-shadow: 0px 0px 15px black;
+}
+#legend_lien:hover figcaption
+{
+    text-shadow: 1px 1px 2px blue;
+}
+
+
+/* Pour les pc portables*/
+
+
+@media screen and (max-width: 1366px)
+{
+    #titre
+    {
+        font-size: 10em;
+    }
+    img
+    {
+        width: 20em;
+    }
+    figcaption
+    {
+        font-size: 1.5em;
+    }
 }
