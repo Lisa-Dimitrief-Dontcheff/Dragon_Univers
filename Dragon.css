@@ -81,13 +81,13 @@ img
     border-radius: 30px;
     box-shadow: 0px 0px 15px rgb(150, 9, 150);
 }
-figcaption, h3
+figcaption
 {
     color: black;
     text-shadow: 1px 1px 0px rgb(150, 9, 150);
     text-decoration: none;
 }
-#legend_lien:hover img
+a:hover img
 {
     box-shadow: 0px 0px 15px black;
 }
