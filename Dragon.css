@@ -51,7 +51,7 @@ button
     box-shadow: 2px 2px 4px rgb(150, 9, 150);
 }
 
-p
+p, table
 {
     font-size: 1.25em;
     font-weight: normal;
@@ -95,8 +95,51 @@ a:hover img
 {
     text-shadow: 1px 1px 2px blue;
 }
+td a, td a:visited
+{
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    text-align: justify;
+}
+table
+{
+    border-collapse: collapse;
+}
+#sommaire
+{
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+#sommaire td, #sommaire th
+{
+    border: 2px black solid;
+    font-weight: normal;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    padding: 5px;
+}
+section1 td
+{
+    border-bottom: 2px black dashed;
+    padding: 5px;
+    text-align: left;
+}
+#sauce_tomate
+{
+    white-space: nowrap;
+}
 
-
+/*categories*/
+#fiche
+{
+    display: flex;
+}
+/*article2
+{
+    margin-top: ;
+}*/
 /* Pour les pc portables*/
 
 
@@ -113,5 +156,9 @@ a:hover img
     figcaption
     {
         font-size: 1.5em;
+    }
+    table
+    {
+        margin-top: 10px;
     }
 }
